@@ -1,0 +1,39 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+    background: url(header.jpg) black center no-repeat fixed;
+}
+
+.the-text{
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  min-height: 500px;
+}
+
+.btn{
+  background-color: orange;
+  border: orange;
+  border-radius: 40px;
+}
+
+.btn:hover {
+  background-color: black;
+  border: black;
+  transform: scale(1.1);
+}
+
+hr{
+  min-height: 2px;
+  margin: 20px auto;
+  border: 3px solid orange;
+  color: orange;
+  max-width: 100px;
+  opacity: 1;
+
+
+
+}
